@@ -15,6 +15,7 @@ Prodotti *gen_prod_Bamb();
 void inserisci_prodotti(Venditore venditori[], int i);
 void cerca_venditori(Venditore venditori[], int i);
 int generacodice();
+//main
 int main()
 {
     Venditore *venditori = new Venditore[10];

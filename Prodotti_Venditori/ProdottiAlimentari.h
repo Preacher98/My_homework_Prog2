@@ -1,7 +1,7 @@
-#ifndef PRODOTTIALIMENTARI_H
-#define PRODOTTIALIMENTARI_H
+
 #include"Prodotti.h"
 #include<string>
+
 using namespace std;
 class ProdottiAlimentari: public Prodotti
 {
@@ -21,4 +21,4 @@ public:
         }return *this;
     }
 };
-#endif
+
