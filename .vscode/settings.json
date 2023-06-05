@@ -37,5 +37,6 @@
   "files.associations": {
     "iostream": "cpp",
     "iosfwd": "cpp"
-  }
+  },
+  "C_Cpp_Runner.showCompilationTime": false
 }

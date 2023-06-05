@@ -6,13 +6,15 @@ int main()
 {
     ifstream input("input.txt");
     ofstream write("input.txt",ios::app);
-    int a,b;
-    input >> a >> b;
-    cout<< a << " " << b;
     string baudo="PIPPO";
-    write << baudo;
+    write << baudo << " ";
     string pippo;
-    write << pippo;
-    cout<< pippo;
+    while (input)
+    {
+        input >> pippo;
+    cout << pippo << " ";
+    }
+    
+    
     return 0;
 }
