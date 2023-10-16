@@ -1,4 +1,5 @@
-
+#ifndef PRODOTTIALIMENTARI_H
+#define PRODOTTIALIMENTARI_H
 #include"Prodotti.h"
 #include<string>
 
@@ -21,4 +22,4 @@ public:
         }return *this;
     }
 };
-
+#endif
